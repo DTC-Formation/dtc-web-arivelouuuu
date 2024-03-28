@@ -1,0 +1,93 @@
+@font-face
+{
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf) format(truetype);
+}
+
+body
+{
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+}
+
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 9px;
+    margin-top: 80px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+div.profile
+{
+    line-height: 0.6;
+}
+
+img
+{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+h2
+{
+    font-size: 17px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0px;
+}
+
+h4
+{
+    font-size: 10px;
+    text-align: center;
+}
+
+h4.adress
+{
+    margin-bottom: 10px;
+    color: hsl(75, 94%, 57%);
+}
+
+h4.carrier
+{
+    font-weight: lighter;
+    color: hsl(0, 0%, 100%);
+    margin: 20px 30px;
+}
+
+div.contact
+{
+    line-height: 0.7;
+}
+
+.bouton
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 35px;
+    align-items: center;
+    font-size: x-small;
+    font-weight: bolder;
+}
+
+a:hover
+{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
